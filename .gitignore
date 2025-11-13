@@ -1,0 +1,96 @@
+# ==========================================
+# OS Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ==========================================
+# Node.js / JavaScript
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+coverage/
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+.eggs/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# ==========================================
+# IDE / Editor Settings
+# ==========================================
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains (PyCharm, WebStorm, etc.)
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# ==========================================
+# Logs and Temp Files
+# ==========================================
+logs/
+*.log
+tmp/
+temp/
+
+# ==========================================
+# Other
+# ==========================================
+# Compiled source
+*.class
+*.o
+*.so
+*.dll
+*.exe
+*.out
+*.app
+
+# Backup files
+*.bak
+*.swp
+*.swo
+"node_modules/" 
