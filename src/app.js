@@ -28,7 +28,9 @@ const app = express();
 // ✅ Enable CORS for frontend (Vite)
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow your frontend
+    origin:
+      "http://localhost:5173" ||
+      "https://url-shortener-frontend-three-sigma.vercel.app/", // Allow your frontend
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"],
   })
